@@ -3,8 +3,8 @@
 This project is a simple API designed to help users convert between UNIX timestamps and human-readable dates. It provides endpoints that accept either a UNIX timestamp (in seconds) or a date in ISO format and returns both the UNIX timestamp and the date in a formatted string. The RESTful API is built using Node.js and Express, with Luxon for date and time manipulation.
 
 ## Part of FreeCodeCamp's Backend and API Course Development
-Functionality Video:
-[![Watch the Functionality Video](https://img.youtube.com/vi/YRU0xZiamsA/0.jpg)](https://www.youtube.com/watch?v=YRU0xZiamsA)
+<a href="https://www.youtube.com/watch?v=YRU0xZiamsA" target="_blank">Watch this video on YouTube</a>
+
 
 
 ## Example Responses
