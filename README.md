@@ -4,7 +4,8 @@ This project is a simple API designed to help users convert between UNIX timesta
 
 ## Part of FreeCodeCamp's Backend and API Course Development
 Functionality Video:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YRU0xZiamsA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the Functionality Video](https://img.youtube.com/vi/YRU0xZiamsA/0.jpg)](https://www.youtube.com/watch?v=YRU0xZiamsA)
+
 
 ## Example Responses
 
