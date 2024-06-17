@@ -50,6 +50,22 @@ app.get("/api/:date?",
         valid = true;
       }
     }
+
+
+    /**
+       * I used a different strategy in order to ensure it's a date, but this one
+       * may work as well, more using the JS Date Object
+       */
+      if (!valid) {
+        const parsedDate = new Date(date);
+        if (!isNaN(parsedDate.getTime())) {
+          valid = true;
+          UTC = parsedDate.toUTCString();
+          UNIX = parsedDate.getTime();
+          res.send({ "unix": UNIX, "utc": UTC });
+        }
+      }
+      
     if (!valid) {
       res.send({"error" : "Invalid Date"});
       return;
