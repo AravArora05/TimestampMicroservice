@@ -1,8 +1,10 @@
 # Timestamp Microservice
+## Part of FreeCodeCamp's Backend and API Course Development
 
 This project is a simple API designed to help users convert between UNIX timestamps and human-readable dates. It provides endpoints that accept either a UNIX timestamp (in seconds) or a date in ISO format and returns both the UNIX timestamp and the date in a formatted string. The RESTful API is built using Node.js and Express, with Luxon for date and time manipulation.
 
-## Part of FreeCodeCamp's Backend and API Course Development
+
+#### Watch the video underneath to expereince view the project's functionality
 [![Watch the video](https://img.youtube.com/vi/YRU0xZiamsA/0.jpg)](https://www.youtube.com/watch?v=YRU0xZiamsA)
 
 
